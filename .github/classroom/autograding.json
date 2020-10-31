@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "test_all.py",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_my_first_array",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py::test_my_first_array",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    },
+    {
+      "name": "test_my_first_matrix",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py::test_my_first_matrix",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 2
+    }
+  ]
+}
