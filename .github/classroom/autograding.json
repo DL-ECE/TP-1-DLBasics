@@ -1,9 +1,8 @@
 {
-  "tests": [
-    {
-      "name": "test_all.py",
+  "tests": [{
+      "name": "test_mnist_length",
       "setup": "",
-      "run": "poetry run pytest tests/test_all.py",
+      "run": "poetry run pytest tests/test_all.py::test_mnist_length",
       "input": "",
       "output": "",
       "comparison": "included",
@@ -11,19 +10,59 @@
       "points": 1
     },
     {
-      "name": "test_my_first_array",
+      "name": "test_normalize",
       "setup": "",
-      "run": "poetry run pytest tests/test_all.py::test_my_first_array",
+      "run": "poetry run pytest tests/test_all.py::test_normalize",
       "input": "",
       "output": "",
       "comparison": "included",
       "timeout": 10,
-      "points": 2
+      "points": 1
     },
     {
-      "name": "test_my_first_matrix",
+      "name": "test_one_hot",
       "setup": "",
-      "run": "poetry run pytest tests/test_all.py::test_my_first_matrix",
+      "run": "poetry run pytest tests/test_all.py::test_one_hot",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_sigmoid",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py::test_sigmoid",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_dsigmoid",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py::test_dsigmoid",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_softmax",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py::test_softmax",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "test_ffnn",
+      "setup": "",
+      "run": "poetry run pytest tests/test_all.py::test_ffnn",
       "input": "",
       "output": "",
       "comparison": "included",
